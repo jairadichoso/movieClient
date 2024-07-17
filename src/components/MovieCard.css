@@ -1,0 +1,47 @@
+.movieCard {
+    margin: 10px auto;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .movieCard:hover {
+    transform: scale(1.02);
+  }
+  
+  .movieLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  @media (max-width: 768px) {
+    .movieCard {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .movieCard {
+      width: 95%;
+    }
+  }
+  
+  .card-title, .card-subtitle, .card-text {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 576px) {
+    .card-title {
+      font-size: 1.2rem;
+    }
+    
+    .card-subtitle {
+      font-size: 1rem;
+    }
+    
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+  
