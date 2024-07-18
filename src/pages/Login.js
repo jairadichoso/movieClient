@@ -34,7 +34,7 @@ export default function Login() {
                 Swal.fire({
                     title: "Login Successful",
                     icon: "success",
-                    text: "Welcome to FLickStack!"
+                    text: "Welcome to FlickStack!"
                 });
                 navigate('/');
             } else {
